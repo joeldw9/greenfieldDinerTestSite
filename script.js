@@ -242,5 +242,4 @@ function cartItem(item) {
     var itemToUseParsed = JSON.parse(itemToUse)
     console.log(itemToUseParsed)
 }
-}
 
