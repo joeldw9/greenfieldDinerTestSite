@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Estonia&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        <script>
+            window.onload = function() {
+                menu()
+};
+        </script>
+    </head>
+    <body>
+        <section class="stickynav">
+            <div class="navContent">
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="hours.html">Hours</a>
+                    <a href="Cart.html">Cart</a>
+                    <a class="adminButtons selected" href="menuAdmin.html">Admin Menu</a>
+            </div>
+        </section>
+        
+        <section class="content">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="menuHeader">Greenfield Diner Admin Menu</h1>
+            <div class="adminButtons flex">
+                <button onclick="addItem()">Add Item</button>
+                <button onclick="removeItem()">Remove Item</button>
+                <button onclick="editItem()">Edit Item</button>
+            </div>
+            
+            <div id="shop-items">
+                
+            </div>
+            
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

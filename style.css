@@ -1,0 +1,422 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: grey	;
+    color: #000;
+
+}
+
+.container{
+    margin: 25px auto; 
+    position: relative; 
+    width: 900px;
+}
+
+.conten{
+    background: rgb(128,0,0);
+  border: 1px solid #c4c6ca;
+  margin: 0 auto;
+  padding: 25px 0 0;
+  position: relative;
+  text-align: center;
+  width: 400px;
+  height: 270px;
+}
+
+#signup{
+    display: none;
+}
+
+.conten2{
+    background: rgb(128,0,0);
+    border: 1px solid #c4c6ca;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+}
+
+.conten a{
+    color: black;
+}
+
+.conten a:hover{
+    color: grey;
+}
+
+.input{
+    height: 30px;
+    width: 50%;
+}
+
+.bdlogo{
+    height: auto;
+    width: 32%;
+    justify-content: center;
+}
+
+.log{
+    padding-left: 41%;
+}
+
+.logbutton{
+    width: 80%;
+    border-radius: 12px;
+}
+
+.logbutton:hover {
+    background-color: grey;
+    color: white;
+}
+
+.content a{
+    color: black;
+    text-decoration: underline grey;
+}
+
+.navContent {
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.stickynav {
+    display: sticky;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: maroon;
+    width: 100%;
+    margin: 0;
+    font-size: 175%;
+    color: white;
+    font-family: 'Estonia', cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+}
+
+.stickynav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+.content {
+    margin-left: 10%;
+    justify-content: center;
+    text-align: center;
+}
+.content h1 {
+    font-size: 400%;
+    font-family: 'Estonia', cursive;
+
+}
+
+
+.checkOut {
+    justify-content: right;
+    display: block;
+    text-align: right;
+    display: flex;
+}
+
+.cartBody {
+    color: rgb(201, 201, 201);
+    margin-top: 75px;
+    height: 750px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cartBody hr {
+    width: 100%;
+}
+
+.menuHeader {
+    margin-left: -12.5%;
+}
+
+#shop-items{
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap
+}
+
+.shop-item {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15px;
+}
+
+ .shop-item-info{
+        text-align: center;
+    }
+
+.shop-item img{
+    height: 150px;
+    width: 150px;
+}
+
+.shop-item-info{
+    text-align: center;
+}
+
+.shop-item-info button{
+    background-color: maroon;
+    border-radius: 5px;
+    color: grey;
+}
+
+.storehours {
+    padding-top: 13%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.storehours table,th,td{
+    border: 3px solid black ;
+    border-collapse: collapse;
+    color: maroon;
+    background-color: white;
+}
+.storehours table{
+    width: 100%;
+    height: 25%;
+}
+.storehours th,td{
+    text-align: center;
+
+}
+
+.adminButtons {
+    display: none;
+    justify-content: center;
+}
+
+.logInButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.cart-container{
+    width: 70%;
+ height: 85%;
+ background-color: #ffffff;
+ border-radius: 20px;
+ box-shadow: 0px 25px 40px maroon;
+ margin-left: 10%;
+}
+.cart-items{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .image-box{
+    width: 15%;
+    text-align: center;
+   }
+   .about{
+    height: 100%;
+   }
+   .title{
+    padding-top: 5px;
+    line-height: 10px;
+    font-size: 32px;
+    font-family: ‘Open Sans’;
+    font-weight: 800;
+    color: #202020;
+   }
+   .subtitle{
+    line-height: 10px;
+    font-size: 18px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #909090;
+   }
+   .counter{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .bttnn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: ‘Open Sans’;
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+   }
+   .count{
+    font-size: 20px;
+    font-family: ‘Open Sans’;
+    font-weight: 900;
+    color: #202020;
+   }
+   .prices{
+    height: 100%;
+    text-align: right;
+   }
+   .amount{
+    padding-top: 20px;
+    font-size: 26px;
+    font-family: ‘Open Sans’;
+    font-weight: 800;
+    color: #202020;
+   }
+   .save{
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #1687d9;
+    cursor: pointer;
+   }
+   .remove{
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+   }
+
+   .hidden {
+       display: none;
+   }
+
+   .flex {
+       margin-left: -12.5%;
+   }
+   .r1 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .containr {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  .inp[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .bton {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .bton:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+  .paymentinfo{
+      width: 50%;
+      padding-left: 26%;
+      padding-top: 10%;
+  }
+  .ioncard{
+      width: 25px;
+      height: 25px;
+  }
+
+  #loginframe {
+      display: none;
+  }

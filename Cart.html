@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Estonia&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <section class="stickynav">
+            <div class="navContent">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="hours.html">Hours</a>
+                <a href="Cart.html" class="selected">Cart</a>
+                <a class="adminButtons" href="menuAdmin.html">Admin Menu</a>
+                
+            </div>
+    </section>
+    
+    <section class="cartBody">
+        <h1>Cart</h1>
+        <hr>
+        <div class="cart-container">
+
+            </div>
+            
+        </div>
+        <div class="checkout">
+            <div class="priceLabels">
+                <p>Subtotal</p>
+                <p>Tax</p>
+                <p>Total</p>
+            </div>
+            <div class="priceAmounts">
+                <p id="subtotal">:   $0.00</p>
+                <p id="tax">:   $0.00</p>
+                <p id="total">:   $0.00</p>
+            </div>
+        </div>
+    </section>
+    <button onclick="showLocalStorage()">Show Local Storage</button>
+        <script src="cart.js"></script>
+    </body>
+</html>
